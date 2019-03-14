@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse; }
+
+@font-face {
+  font-family: 'ABeeZee';
+  src: url(../../fonts/ABeeZee-Regular.otf); }
+@font-face {
+  font-family: 'Playtime';
+  src: url(../../fonts/playtime.ttf); }
+@font-face {
+  font-family: 'PlaytimeOblique';
+  src: url(../../fonts/PlaytimeOblique.ttf); }
+@font-face {
+  font-family: 'Playtime3D';
+  src: url(../../fonts/PlaytimeWithHotToddies3D.ttf); }
+.social, .linkdIn, .git, .flickr, .twitter {
+  position: fixed;
+  z-index: 100;
+  margin-top: 15vh;
+  width: 9vw;
+  height: 2vh;
+  padding: 20px;
+  padding-left: 5px;
+  padding-right: 15px;
+  left: -7vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: left 1s;
+  margin-bottom: 30px; }
+  .social a, .linkdIn a, .git a, .flickr a, .twitter a {
+    text-decoration: none; }
+  .social p, .linkdIn p, .git p, .flickr p, .twitter p {
+    color: #fff;
+    font-size: 2em;
+    display: inline;
+    margin-right: 10%;
+    font-family: 'Playtime'; }
+  .social span, .linkdIn span, .git span, .flickr span, .twitter span {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2.5em;
+    display: inline;
+    margin-left: 20px; }
+  .social:hover, .linkdIn:hover, .git:hover, .flickr:hover, .twitter:hover {
+    left: 0; }
+
+.linkdIn {
+  padding-bottom: 28px;
+  padding-top: 10px; }
+  .linkdIn p {
+    margin-right: 12%; }
+  .linkdIn:hover span {
+    color: #0976B4; }
+
+.git {
+  margin-top: 22vh;
+  padding-bottom: 28px;
+  padding-top: 10px; }
+  .git p {
+    margin-right: 21%; }
+  .git:hover span {
+    color: purple; }
+
+.flickr {
+  margin-top: 29vh;
+  padding-bottom: 28px;
+  padding-top: 10px; }
+  .flickr p {
+    margin-right: 30%; }
+  .flickr:hover span {
+    color: #FF0085; }
+
+.twitter {
+  margin-top: 36vh;
+  padding-bottom: 30px;
+  padding-top: 10px; }
+  .twitter p {
+    margin-right: 17%; }
+  .twitter:hover span {
+    color: #55ACEE; }
+
+.orangeBg {
+  width: 100vw;
+  height: 75vh;
+  background-color: #E75125;
+  padding-top: 30vh;
+  display: block; }
+
+.portOrangeBg {
+  width: 100vw;
+  height: 100%;
+  background-color: #E75125;
+  display: block;
+  padding-bottom: 30vh; }
+
+.purpleBg {
+  width: 100vw;
+  height: 95vh;
+  display: block;
+  background-color: #6B2C90; }
+
+.portTitle {
+  font-family: 'Playtime';
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 10vh;
+  margin-bottom: 10vh; }
+
+.workBox, .em2, .airbrows, .acme, .scope, .typoArt {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 20vw;
+  height: 50vh;
+  border-radius: 8%;
+  display: inline-block;
+  cursor: pointer; }
+  .workBox h1, .em2 h1, .airbrows h1, .acme h1, .scope h1, .typoArt h1 {
+    color: #fff;
+    font-family: 'Playtime';
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 5vh; }
+  .workBox img, .em2 img, .airbrows img, .acme img, .scope img, .typoArt img {
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 3%; }
+  .workBox p, .em2 p, .airbrows p, .acme p, .scope p, .typoArt p {
+    color: #fff;
+    font-family: 'ABeeZee';
+    text-align: center;
+    font-size: 1.5em;
+    padding: 7%; }
+  .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover {
+    background-color: #6B2C90;
+    transition: 0.5s; }
+
+.em2 {
+  margin-left: 6vw; }
+
+.airbrows {
+  margin-left: 2vw; }
+  .airbrows img {
+    width: 50%;
+    margin-left: 23%; }
+
+.acme {
+  margin-left: 2vw; }
+  .acme img {
+    width: 100%; }
+
+.scope {
+  margin-left: 2vw; }
+  .scope img {
+    width: 110%; }
+
+.typoArt {
+  margin-left: 6vw;
+  margin-top: 2vw; }
+  .typoArt img {
+    width: 40%;
+    margin-left: 30%; }
+
+.work.clicked {
+  background-color: #fff;
+  display: hidden; }
+
+/*# sourceMappingURL=style.css.map */
