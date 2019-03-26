@@ -56,6 +56,9 @@ table {
 @font-face {
   font-family: 'Playtime3D';
   src: url(../../fonts/PlaytimeWithHotToddies3D.ttf); }
+@font-face {
+  font-family: 'ArchisticoBold';
+  src: url(../../fonts/Archistico_Bold.ttf); }
 .social, .linkdIn, .git, .flickr, .twitter {
   position: fixed;
   z-index: 100;
@@ -140,21 +143,14 @@ table {
   display: block;
   background-color: #6B2C90; }
 
-.portTitle {
-  font-family: 'Playtime';
-  color: #fff;
-  text-align: center;
-  font-size: 3em;
-  padding-top: 10vh;
-  margin-bottom: 10vh; }
-
 .workBox, .em2, .airbrows, .acme, .scope, .typoArt {
   background-color: rgba(0, 0, 0, 0.3);
   width: 20vw;
   height: 50vh;
   border-radius: 8%;
   display: inline-block;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 10vh; }
   .workBox h1, .em2 h1, .airbrows h1, .acme h1, .scope h1, .typoArt h1 {
     color: #fff;
     font-family: 'Playtime';
@@ -172,11 +168,11 @@ table {
     font-size: 1.5em;
     padding: 7%; }
   .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover {
-    background-color: #6B2C90;
+    background-color: rgba(0, 0, 0, 0.8);
     transition: 0.5s; }
 
 .em2 {
-  margin-left: 6vw; }
+  margin-left: 13vw; }
 
 .airbrows {
   margin-left: 2vw; }
@@ -187,22 +183,36 @@ table {
 .acme {
   margin-left: 2vw; }
   .acme img {
-    width: 100%; }
+    width: 102%; }
 
 .scope {
-  margin-left: 2vw; }
+  margin-left: 13vw; }
   .scope img {
     width: 110%; }
 
 .typoArt {
-  margin-left: 6vw;
-  margin-top: 2vw; }
+  margin-left: 2vw; }
   .typoArt img {
-    width: 40%;
+    width: 44%;
     margin-left: 30%; }
 
-.work.clicked {
+.clicked {
+  display: none;
+  visibility: hidden; }
+
+.portTitle {
   background-color: #fff;
-  display: hidden; }
+  width: 8%;
+  height: 100%;
+  float: right;
+  position: fixed;
+  display: inline-block;
+  right: 0px; }
+  .portTitle p {
+    font-family: 'ArchisticoBold';
+    font-size: 6.7em;
+    text-align: center;
+    margin-right: 20%;
+    color: #6B2C90; }
 
 /*# sourceMappingURL=style.css.map */
