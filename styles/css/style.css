@@ -87,6 +87,20 @@ table {
     margin-left: 20px; }
   .social:hover, .linkdIn:hover, .git:hover, .flickr:hover, .twitter:hover {
     left: 0; }
+  @media screen and (max-width: 767px) {
+    .social, .linkdIn, .git, .flickr, .twitter {
+      left: 0;
+      margin-top: 8vh;
+      display: inline-block;
+      width: 25vw;
+      text-align: center;
+      padding: 0; }
+      .social p, .linkdIn p, .git p, .flickr p, .twitter p {
+        display: none; }
+      .social span, .linkdIn span, .git span, .flickr span, .twitter span {
+        color: #fff;
+        margin-left: 0px;
+        font-size: 2em; } }
 
 .linkdIn {
   padding-bottom: 28px;
@@ -95,6 +109,11 @@ table {
     margin-right: 12%; }
   .linkdIn:hover span {
     color: #0976B4; }
+  @media screen and (max-width: 767px) {
+    .linkdIn {
+      background-color: #0976B4; }
+      .linkdIn:hover span {
+        color: #fff; } }
 
 .git {
   margin-top: 22vh;
@@ -104,6 +123,15 @@ table {
     margin-right: 21%; }
   .git:hover span {
     color: purple; }
+  @media screen and (max-width: 767px) {
+    .git {
+      background-color: purple;
+      margin-top: 8vh;
+      left: 25vw; }
+      .git:hover {
+        left: 25vw; }
+        .git:hover span {
+          color: #fff; } }
 
 .flickr {
   margin-top: 29vh;
@@ -113,6 +141,15 @@ table {
     margin-right: 30%; }
   .flickr:hover span {
     color: #FF0085; }
+  @media screen and (max-width: 767px) {
+    .flickr {
+      background-color: #FF0085;
+      margin-top: 8vh;
+      left: 50vw; }
+      .flickr:hover {
+        left: 50vw; }
+        .flickr:hover span {
+          color: #fff; } }
 
 .twitter {
   margin-top: 36vh;
@@ -122,6 +159,16 @@ table {
     margin-right: 17%; }
   .twitter:hover span {
     color: #55ACEE; }
+  @media screen and (max-width: 767px) {
+    .twitter {
+      background-color: #55ACEE;
+      margin-top: 14.2vw;
+      left: 75vw;
+      padding-bottom: 28px; }
+      .twitter:hover {
+        left: 75vw; }
+        .twitter:hover span {
+          color: #fff; } }
 
 .orangeBg {
   width: 100vw;
@@ -136,6 +183,10 @@ table {
   background-color: #E75125;
   display: block;
   padding-bottom: 30vh; }
+  @media screen and (max-width: 767px) {
+    .portOrangeBg {
+      padding-top: 10vh;
+      padding-bottom: 10vh; } }
 
 .purpleBg {
   width: 100vw;
@@ -170,35 +221,59 @@ table {
   .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover {
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.5s; }
+  @media screen and (max-width: 767px) {
+    .workBox, .em2, .airbrows, .acme, .scope, .typoArt {
+      display: block;
+      width: 86vw;
+      height: 70vh;
+      margin-top: 10vh; }
+      .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: 0s; } }
 
 .em2 {
   margin-left: 13vw; }
+  @media screen and (max-width: 767px) {
+    .em2 {
+      margin-left: 7vw; } }
 
 .airbrows {
   margin-left: 2vw; }
   .airbrows img {
     width: 50%;
     margin-left: 23%; }
+  @media screen and (max-width: 767px) {
+    .airbrows {
+      margin-left: 7vw;
+      margin-top: 10vw; } }
 
 .acme {
   margin-left: 2vw; }
   .acme img {
     width: 102%; }
+  @media screen and (max-width: 767px) {
+    .acme {
+      margin-left: 7vw;
+      margin-top: 10vw; } }
 
 .scope {
   margin-left: 13vw; }
   .scope img {
     width: 110%; }
+  @media screen and (max-width: 767px) {
+    .scope {
+      margin-left: 7vw;
+      margin-top: 10vw; } }
 
 .typoArt {
   margin-left: 2vw; }
   .typoArt img {
     width: 44%;
     margin-left: 30%; }
-
-.clicked {
-  display: none;
-  visibility: hidden; }
+  @media screen and (max-width: 767px) {
+    .typoArt {
+      margin-left: 7vw;
+      margin-top: 10vw; } }
 
 .portTitle {
   background-color: #fff;
@@ -214,5 +289,20 @@ table {
     text-align: center;
     margin-right: 20%;
     color: #6B2C90; }
+  @media screen and (max-width: 767px) {
+    .portTitle {
+      float: none;
+      width: 100vw;
+      height: 8vh;
+      left: 0;
+      text-align: center; }
+      .portTitle p {
+        display: inline;
+        font-size: 3em;
+        margin-right: 0%; } }
+
+.clicked {
+  visibility: hidden;
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

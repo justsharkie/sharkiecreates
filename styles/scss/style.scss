@@ -55,6 +55,11 @@ $faded-box: rgba(0,0,0,0.3);
 $social-icons: rgba(255,255,255,0.6);
 $less-faded-box: rgba(0,0,0,0.8);
 
+// Screen Widths
+$bp-phone: 479px;
+$bp-tab: 767px;
+$bp-desk: 991px;
+
 
 // fonts
 @font-face {
@@ -105,7 +110,6 @@ $less-faded-box: rgba(0,0,0,0.8);
         margin-right: 10%;
         font-family: 'Playtime';
     }
-    
     span {
         color: $social-icons;
         font-size: 2.5em;
@@ -115,6 +119,22 @@ $less-faded-box: rgba(0,0,0,0.8);
     
     &:hover {
         left: 0;
+    }
+    @media screen and (max-width: $bp-tab) {
+        left: 0;
+        margin-top: 8vh;
+        display: inline-block;
+        width: 25vw;
+        text-align: center;
+        padding: 0;
+        p {
+            display: none;
+        }
+        span {
+            color: $white;
+            margin-left: 0px;
+            font-size: 2em;
+        }
     }
 }
 
@@ -128,6 +148,14 @@ $less-faded-box: rgba(0,0,0,0.8);
     &:hover {
         span {
             color: #0976B4;
+        }
+    }
+    @media screen and (max-width: $bp-tab) {
+        background-color: #0976B4;
+        &:hover {
+            span {
+                color: $white;
+            }
         }
     }
 }
@@ -146,6 +174,17 @@ $less-faded-box: rgba(0,0,0,0.8);
             color: purple;
         }
     }
+    @media screen and (max-width: $bp-tab) {
+        background-color: purple;
+        margin-top: 8vh;
+        left: 25vw;
+        &:hover {
+            left: 25vw;
+            span {
+                color: $white;
+            }
+        }
+    }
 }
 
 .flickr {
@@ -161,6 +200,17 @@ $less-faded-box: rgba(0,0,0,0.8);
             color: #FF0085;
         }
     }
+    @media screen and (max-width: $bp-tab) {
+        background-color: #FF0085;
+        margin-top: 8vh;
+        left: 50vw;
+        &:hover {
+            left: 50vw;
+            span {
+                color: $white;
+            }
+        }
+    }
 }
 
 .twitter {
@@ -174,6 +224,18 @@ $less-faded-box: rgba(0,0,0,0.8);
     &:hover {
         span {
             color: #55ACEE;
+        }
+    }
+    @media screen and (max-width: $bp-tab) {
+        background-color: #55ACEE;
+        margin-top: 14.2vw;
+        left: 75vw;
+        padding-bottom: 28px;
+        &:hover {
+            left: 75vw;
+            span {
+                color: $white;
+            }
         }
     }
 }
@@ -192,6 +254,10 @@ $less-faded-box: rgba(0,0,0,0.8);
     background-color: $orange;
     display: block;
     padding-bottom: 30vh;
+    @media screen and (max-width: $bp-tab){
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
 }
 .purpleBg {
     width: 100vw;
@@ -230,10 +296,23 @@ $less-faded-box: rgba(0,0,0,0.8);
         background-color: $less-faded-box;
         transition: 0.5s;
     }
+    @media screen and (max-width: $bp-tab){
+        display: block;
+        width: 86vw;
+        height: 70vh;
+        margin-top: 10vh;
+        &:hover {
+            background-color: $faded-box;
+            transition: 0s;
+        }
+    }
 }
 .em2 {
     @extend .workBox;
     margin-left: 13vw;
+    @media screen and (max-width: $bp-tab) {
+        margin-left: 7vw;
+    }
 }
 .airbrows {
     @extend .workBox;
@@ -242,6 +321,10 @@ $less-faded-box: rgba(0,0,0,0.8);
         width: 50%;
         margin-left: 23%;
     }
+    @media screen and (max-width: $bp-tab) {
+        margin-left: 7vw;
+        margin-top: 10vw;
+    }
 }
 .acme {
     @extend .workBox;
@@ -249,12 +332,20 @@ $less-faded-box: rgba(0,0,0,0.8);
     img {
         width: 102%; 
     }
+    @media screen and (max-width: $bp-tab) {
+        margin-left: 7vw;
+        margin-top: 10vw;
+    }
 }
 .scope {
     @extend .workBox;
     margin-left: 13vw;
     img {
         width: 110%;
+    }
+    @media screen and (max-width: $bp-tab) {
+        margin-left: 7vw;
+        margin-top: 10vw;
     }
 }
 .typoArt {
@@ -264,10 +355,10 @@ $less-faded-box: rgba(0,0,0,0.8);
         width: 44%;
         margin-left: 30%;
     }
-}
-.clicked {
-    display: none;
-    visibility: hidden;
+    @media screen and (max-width: $bp-tab) {
+        margin-left: 7vw;
+        margin-top: 10vw;
+    }
 }
 .portTitle {
     background-color: $white;
@@ -284,4 +375,20 @@ $less-faded-box: rgba(0,0,0,0.8);
         margin-right: 20%;
         color: $purple;
     }
+    @media screen and (max-width: $bp-tab) {
+        float: none;
+        width: 100vw;
+        height: 8vh;
+        left: 0;
+        text-align: center;
+        p {
+            display: inline;
+            font-size: 3em;
+            margin-right: 0%;
+        }
+    }
+}
+.clicked {
+    visibility: hidden;
+    display: none;
 }
