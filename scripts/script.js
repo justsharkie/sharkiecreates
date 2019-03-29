@@ -1,8 +1,13 @@
 function click(elem) {
-    /*var work = document.getElementsByClassName('work');
+    elem.style.display = 'none';
+}
+
+/* var work = document.getElementsByClassName('work');
     var i;
     for (i = 0; i > work.length; i++) {
-        work.classList.add = 'clicked';
+        if (work.style.display === "inline-block") {
+            work.style.display = 'none';
+        }else {
+            work.style.display = 'inline-block';
+        }
     }*/
-    elem.classList.add = 'clicked';
-}

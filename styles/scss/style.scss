@@ -228,9 +228,10 @@ $bp-desk: 991px;
     }
     @media screen and (max-width: $bp-tab) {
         background-color: #55ACEE;
-        margin-top: 14.2vw;
+        margin-top: 8vh;
         left: 75vw;
         padding-bottom: 28px;
+        width: 27vw;
         &:hover {
             left: 75vw;
             span {
@@ -257,6 +258,7 @@ $bp-desk: 991px;
     @media screen and (max-width: $bp-tab){
         padding-top: 10vh;
         padding-bottom: 10vh;
+        width: 105vw;
     }
 }
 .purpleBg {
@@ -311,7 +313,7 @@ $bp-desk: 991px;
     @extend .workBox;
     margin-left: 13vw;
     @media screen and (max-width: $bp-tab) {
-        margin-left: 7vw;
+        margin-left: 8vw;
     }
 }
 .airbrows {
@@ -322,7 +324,7 @@ $bp-desk: 991px;
         margin-left: 23%;
     }
     @media screen and (max-width: $bp-tab) {
-        margin-left: 7vw;
+        margin-left: 8vw;
         margin-top: 10vw;
     }
 }
@@ -333,7 +335,7 @@ $bp-desk: 991px;
         width: 102%; 
     }
     @media screen and (max-width: $bp-tab) {
-        margin-left: 7vw;
+        margin-left: 8vw;
         margin-top: 10vw;
     }
 }
@@ -344,7 +346,7 @@ $bp-desk: 991px;
         width: 110%;
     }
     @media screen and (max-width: $bp-tab) {
-        margin-left: 7vw;
+        margin-left: 8vw;
         margin-top: 10vw;
     }
 }
@@ -356,7 +358,7 @@ $bp-desk: 991px;
         margin-left: 30%;
     }
     @media screen and (max-width: $bp-tab) {
-        margin-left: 7vw;
+        margin-left: 8vw;
         margin-top: 10vw;
     }
 }
@@ -377,7 +379,7 @@ $bp-desk: 991px;
     }
     @media screen and (max-width: $bp-tab) {
         float: none;
-        width: 100vw;
+        width: 105vw;
         height: 8vh;
         left: 0;
         text-align: center;
