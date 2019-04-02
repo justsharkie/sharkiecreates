@@ -101,6 +101,19 @@ table {
         color: #fff;
         margin-left: 0px;
         font-size: 2em; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .social, .linkdIn, .git, .flickr, .twitter {
+      left: 0;
+      bottom: 0;
+      margin-bottom: 0;
+      text-align: center;
+      width: 25vw; }
+      .social p, .linkdIn p, .git p, .flickr p, .twitter p {
+        display: none; }
+      .social span, .linkdIn span, .git span, .flickr span, .twitter span {
+        color: #fff;
+        margin-left: 0px;
+        font-size: 2.5em; } }
 
 .linkdIn {
   padding-bottom: 28px;
@@ -110,6 +123,11 @@ table {
   .linkdIn:hover span {
     color: #0976B4; }
   @media screen and (max-width: 767px) {
+    .linkdIn {
+      background-color: #0976B4; }
+      .linkdIn:hover span {
+        color: #fff; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
     .linkdIn {
       background-color: #0976B4; }
       .linkdIn:hover span {
@@ -127,6 +145,14 @@ table {
     .git {
       background-color: purple;
       margin-top: 8vh;
+      left: 25vw; }
+      .git:hover {
+        left: 25vw; }
+        .git:hover span {
+          color: #fff; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .git {
+      background-color: purple;
       left: 25vw; }
       .git:hover {
         left: 25vw; }
@@ -150,6 +176,14 @@ table {
         left: 50vw; }
         .flickr:hover span {
           color: #fff; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .flickr {
+      background-color: #FF0085;
+      left: 50vw; }
+      .flickr:hover {
+        left: 50vw; }
+        .flickr:hover span {
+          color: #fff; } }
 
 .twitter {
   margin-top: 36vh;
@@ -166,6 +200,14 @@ table {
       left: 75vw;
       padding-bottom: 28px;
       width: 27vw; }
+      .twitter:hover {
+        left: 75vw; }
+        .twitter:hover span {
+          color: #fff; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .twitter {
+      background-color: #55ACEE;
+      left: 75vw; }
       .twitter:hover {
         left: 75vw; }
         .twitter:hover span {
@@ -232,12 +274,23 @@ table {
       .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover {
         background-color: rgba(0, 0, 0, 0.3);
         transition: 0s; } }
+  @media screen and (max-width: 350px) {
+    .workBox, .em2, .airbrows, .acme, .scope, .typoArt {
+      height: 80vh; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .workBox, .em2, .airbrows, .acme, .scope, .typoArt {
+      width: 37vw;
+      margin-top: 5vh;
+      height: 70vh; } }
 
 .em2 {
   margin-left: 13vw; }
   @media screen and (max-width: 767px) {
     .em2 {
       margin-left: 8vw; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .em2 {
+      margin-left: 6vw; } }
 
 .airbrows {
   margin-left: 2vw; }
@@ -257,6 +310,9 @@ table {
     .acme {
       margin-left: 8vw;
       margin-top: 10vw; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .acme {
+      margin-left: 6vw; } }
 
 .scope {
   margin-left: 13vw; }
@@ -266,6 +322,9 @@ table {
     .scope {
       margin-left: 8vw;
       margin-top: 10vw; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .scope {
+      margin-left: 2vw; } }
 
 .typoArt {
   margin-left: 2vw; }
@@ -276,6 +335,9 @@ table {
     .typoArt {
       margin-left: 8vw;
       margin-top: 10vw; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .typoArt {
+      margin-left: 6vw; } }
 
 .portTitle {
   background-color: #fff;
@@ -302,6 +364,12 @@ table {
         display: inline;
         font-size: 3em;
         margin-right: 0%; } }
+  @media screen and (max-width: 350px) {
+    .portTitle p {
+      font-size: 2.5em; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    .portTitle {
+      width: 11%; } }
 
 .clicked {
   visibility: hidden;

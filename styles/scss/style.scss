@@ -58,7 +58,7 @@ $less-faded-box: rgba(0,0,0,0.8);
 // Screen Widths
 $bp-phone: 479px;
 $bp-tab: 767px;
-$bp-desk: 991px;
+$bp-desk: 1500px;
 
 
 // fonts
@@ -136,6 +136,21 @@ $bp-desk: 991px;
             font-size: 2em;
         }
     }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        left: 0;
+        bottom: 0;
+        margin-bottom: 0;
+        text-align: center;
+        width: 25vw;
+        p {
+            display: none;
+        }
+        span {
+            color: $white;
+            margin-left: 0px;
+            font-size: 2.5em;
+        }
+    }
 }
 
 .linkdIn {
@@ -151,6 +166,14 @@ $bp-desk: 991px;
         }
     }
     @media screen and (max-width: $bp-tab) {
+        background-color: #0976B4;
+        &:hover {
+            span {
+                color: $white;
+            }
+        }
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
         background-color: #0976B4;
         &:hover {
             span {
@@ -185,6 +208,16 @@ $bp-desk: 991px;
             }
         }
     }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        background-color: purple;
+        left: 25vw;
+        &:hover {
+            left: 25vw;
+            span {
+                color: $white;
+            }
+        }
+    }
 }
 
 .flickr {
@@ -203,6 +236,16 @@ $bp-desk: 991px;
     @media screen and (max-width: $bp-tab) {
         background-color: #FF0085;
         margin-top: 8vh;
+        left: 50vw;
+        &:hover {
+            left: 50vw;
+            span {
+                color: $white;
+            }
+        }
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        background-color: #FF0085;
         left: 50vw;
         &:hover {
             left: 50vw;
@@ -232,6 +275,16 @@ $bp-desk: 991px;
         left: 75vw;
         padding-bottom: 28px;
         width: 27vw;
+        &:hover {
+            left: 75vw;
+            span {
+                color: $white;
+            }
+        }
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        background-color: #55ACEE;
+        left: 75vw;
         &:hover {
             left: 75vw;
             span {
@@ -308,12 +361,23 @@ $bp-desk: 991px;
             transition: 0s;
         }
     }
+    @media screen and (max-width: 350px) {
+        height: 80vh;
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        width: 37vw;
+        margin-top: 5vh;
+        height: 70vh;
+    }
 }
 .em2 {
     @extend .workBox;
     margin-left: 13vw;
     @media screen and (max-width: $bp-tab) {
         margin-left: 8vw;
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        margin-left: 6vw;
     }
 }
 .airbrows {
@@ -338,6 +402,9 @@ $bp-desk: 991px;
         margin-left: 8vw;
         margin-top: 10vw;
     }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        margin-left: 6vw;
+    }
 }
 .scope {
     @extend .workBox;
@@ -348,6 +415,9 @@ $bp-desk: 991px;
     @media screen and (max-width: $bp-tab) {
         margin-left: 8vw;
         margin-top: 10vw;
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        margin-left: 2vw;
     }
 }
 .typoArt {
@@ -360,6 +430,9 @@ $bp-desk: 991px;
     @media screen and (max-width: $bp-tab) {
         margin-left: 8vw;
         margin-top: 10vw;
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        margin-left: 6vw;
     }
 }
 .portTitle {
@@ -388,6 +461,14 @@ $bp-desk: 991px;
             font-size: 3em;
             margin-right: 0%;
         }
+    }
+    @media screen and (max-width: 350px) {
+        p {
+            font-size: 2.5em;
+        }
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        width: 11%;
     }
 }
 .clicked {
