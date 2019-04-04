@@ -48,30 +48,45 @@
     </div>
 
     <div class="portOrangeBg">
-        <div class="em2 work" id="em2" onclick="click(this)">
+        <div class="em2" id="em2" onclick="hide(this, airbrows, acme, scope, typoArt, emDesc)">
             <h1>EM2</h1>
             <img src="images/em2.png" alt="Entertainment Squared">
             <p>Website developed for a college project focusing on a made-up entertainment show...</p>
         </div>
-        <div class="airbrows work" id="airbrows" onclick="click()">
+        <div id="emDesc">
+            <h1>THIS IS THE EM2 HEADER</h1>
+        </div>
+        <div class="airbrows" id="airbrows" onclick="hide(this, em2, acme, scope, typoArt, airDesc)">
             <h1>Airbrowz</h1>
             <img src="images/airbrwz.png" alt="Airbrows">
             <p>Another website.... this time for a real client! Designed, and prototyped by me and a small group.</p>
         </div>
-        <div class="acme work" id="acme" onclick="click()">
+        <div id="airDesc">
+            <h1>THIS IS THE AIRBROWS HEADER</h1>
+        </div>
+        <div class="acme" id="acme" onclick="hide(this, em2, airbrows, scope, typoArt, acmeDesc)">
             <h1>Acme</h1>
             <img src="images/acme.png" alt="Acme Development Conference. ">
             <p>Not a real web conference. Though, would be interesting to see Donald Duck do a talk.</p>
         </div>
-        <div class="scope work" id="scope" onclick="click()">
+        <div id="acmeDesc">
+            <h1>THIS IS THE ACME HEADER</h1>
+        </div>
+        <div class="scope" id="scope" onclick="hide(this, em2, airbrows, acme, typoArt, scopeDesc)">
             <h1>Scope</h1>
             <img src="images/scope.png" alt="">
             <p>Photography? Check. Fake website for a Photography Studio? Double Check.</p>
         </div>
-        <div class="typoArt work" id="typoArt" onclick="click()">
+        <div id="scopeDesc">
+            <h1>THIS IS THE SCOPE HEADER</h1>
+        </div>
+        <div class="typoArt" id="typoArt" onclick="hide(this, em2, airbrows, acme, scope, typoDesc)">
             <h1>Typographic Art</h1>
             <img src="images/typographic_poster.png" alt="Psycho Typographic Poster">
             <p>Yeah, I like Typographic Art. It's fun. It's good.</p>
+        </div>
+        <div id="typoDesc">
+            <h1>THIS IS THE TYPOGRAPHIC ART HEADER</h1>
         </div>
     </div>
     

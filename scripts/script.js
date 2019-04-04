@@ -1,13 +1,9 @@
-function click(elem) {
-    elem.style.display = 'none';
+function hide(elem1, elem2, elem3, elem4, elem5, desc1) {
+    elem1.style.display = 'none';
+    elem2.style.display = 'none';
+    elem3.style.display = 'none';
+    elem4.style.display = 'none';
+    elem5.style.display = 'none';
+    
+    desc1.style.display = 'block';
 }
-
-/* var work = document.getElementsByClassName('work');
-    var i;
-    for (i = 0; i > work.length; i++) {
-        if (work.style.display === "inline-block") {
-            work.style.display = 'none';
-        }else {
-            work.style.display = 'inline-block';
-        }
-    }*/
