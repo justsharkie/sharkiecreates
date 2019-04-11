@@ -473,4 +473,66 @@ $bp-desk: 1500px;
 }
 #emDesc, #airDesc, #acmeDesc, #scopeDesc, #typoDesc {
     display: none;
+    color: $white;
+    padding-top: 20vh;
+    margin-left: 12vw;
+    h1 {
+        font-size: 3em;
+        font-family: 'Playtime';
+        padding-bottom: 7vh;
+    }
+    p {
+        font-family: 'ABeeZee';
+        font-size: 1.5em;
+        width: 30vw;
+        float: left;
+    }
+    img {
+        width: 55vw;
+        float: right;
+        margin-top: -50vh;
+        margin-right: 5vw;
+    }
+    h2 {
+        display: block;
+        margin-top: 25vh;
+        font-family: 'Playtime';
+        font-size: 2em;
+    }
+    ul {
+        margin-left: 2vw;
+        font-family: 'ABeeZee';
+        font-size: 1.5em;
+        margin-top: 1vh;
+    }
+    button {
+        margin-top: 5vh;
+        background-color: $purple;
+        color: $white;
+        width: 10vw;
+        height: 5vh;
+        border: 2px solid black;
+        border-radius: 7%;
+        font-family: 'Playtime';
+        font-size: 2em;
+    }
+    .airbrowsPic {
+        width: 30vw;
+        margin-right: 20vw;
+    }
+    .typographicPic {
+        width: 25vw;
+        margin-right: 20vw;
+    }
+    .backBtn {
+        font-size: 2em;
+        margin-top: 10vh;
+        font-family: 'Playtime';
+        margin-left: -7vw;
+        cursor: pointer;
+        h3 {
+            display: inline-block;
+            margin-left: 0.5vw;
+        }
+    }
 }
