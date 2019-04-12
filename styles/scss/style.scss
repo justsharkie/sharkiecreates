@@ -435,6 +435,14 @@ $bp-desk: 1500px;
         margin-left: 6vw;
     }
 }
+.photo {
+    @extend .workBox;
+    margin-left: 2vw;
+    img {
+        width: 54%;
+        margin-left: 22%;
+    }
+}
 .portTitle {
     background-color: $white;
     width: 8%;
@@ -471,7 +479,7 @@ $bp-desk: 1500px;
         width: 11%;
     }
 }
-#emDesc, #airDesc, #acmeDesc, #scopeDesc, #typoDesc {
+#emDesc, #airDesc, #acmeDesc, #scopeDesc, #typoDesc, #photoDesc {
     display: none;
     color: $white;
     padding-top: 20vh;
@@ -523,6 +531,10 @@ $bp-desk: 1500px;
     .typographicPic {
         width: 25vw;
         margin-right: 20vw;
+    }
+    .photoPic {
+        width: 35vw;
+        margin-right: 15vw;
     }
     .backBtn {
         font-size: 2em;

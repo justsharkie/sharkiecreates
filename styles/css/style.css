@@ -238,7 +238,7 @@ table {
   display: block;
   background-color: #6B2C90; }
 
-.workBox, .em2, .airbrows, .acme, .scope, .typoArt {
+.workBox, .em2, .airbrows, .acme, .scope, .typoArt, .photo {
   background-color: rgba(0, 0, 0, 0.3);
   width: 20vw;
   height: 50vh;
@@ -246,39 +246,39 @@ table {
   display: inline-block;
   cursor: pointer;
   margin-top: 10vh; }
-  .workBox h1, .em2 h1, .airbrows h1, .acme h1, .scope h1, .typoArt h1 {
+  .workBox h1, .em2 h1, .airbrows h1, .acme h1, .scope h1, .typoArt h1, .photo h1 {
     color: #fff;
     font-family: 'Playtime';
     font-size: 2.5em;
     text-align: center;
     padding-top: 5vh; }
-  .workBox img, .em2 img, .airbrows img, .acme img, .scope img, .typoArt img {
+  .workBox img, .em2 img, .airbrows img, .acme img, .scope img, .typoArt img, .photo img {
     width: 100%;
     margin-left: 1%;
     margin-top: 3%; }
-  .workBox p, .em2 p, .airbrows p, .acme p, .scope p, .typoArt p {
+  .workBox p, .em2 p, .airbrows p, .acme p, .scope p, .typoArt p, .photo p {
     color: #fff;
     font-family: 'ABeeZee';
     text-align: center;
     font-size: 1.5em;
     padding: 7%; }
-  .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover {
+  .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover, .photo:hover {
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.5s; }
   @media screen and (max-width: 767px) {
-    .workBox, .em2, .airbrows, .acme, .scope, .typoArt {
+    .workBox, .em2, .airbrows, .acme, .scope, .typoArt, .photo {
       display: block;
       width: 86vw;
       height: 70vh;
       margin-top: 10vh; }
-      .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover {
+      .workBox:hover, .em2:hover, .airbrows:hover, .acme:hover, .scope:hover, .typoArt:hover, .photo:hover {
         background-color: rgba(0, 0, 0, 0.3);
         transition: 0s; } }
   @media screen and (max-width: 350px) {
-    .workBox, .em2, .airbrows, .acme, .scope, .typoArt {
+    .workBox, .em2, .airbrows, .acme, .scope, .typoArt, .photo {
       height: 80vh; } }
   @media screen and (max-width: 1500px) and (min-width: 767px) {
-    .workBox, .em2, .airbrows, .acme, .scope, .typoArt {
+    .workBox, .em2, .airbrows, .acme, .scope, .typoArt, .photo {
       width: 37vw;
       margin-top: 5vh;
       height: 70vh; } }
@@ -339,6 +339,12 @@ table {
     .typoArt {
       margin-left: 6vw; } }
 
+.photo {
+  margin-left: 2vw; }
+  .photo img {
+    width: 54%;
+    margin-left: 22%; }
+
 .portTitle {
   background-color: #fff;
   width: 8%;
@@ -371,36 +377,36 @@ table {
     .portTitle {
       width: 11%; } }
 
-#emDesc, #airDesc, #acmeDesc, #scopeDesc, #typoDesc {
+#emDesc, #airDesc, #acmeDesc, #scopeDesc, #typoDesc, #photoDesc {
   display: none;
   color: #fff;
   padding-top: 20vh;
   margin-left: 12vw; }
-  #emDesc h1, #airDesc h1, #acmeDesc h1, #scopeDesc h1, #typoDesc h1 {
+  #emDesc h1, #airDesc h1, #acmeDesc h1, #scopeDesc h1, #typoDesc h1, #photoDesc h1 {
     font-size: 3em;
     font-family: 'Playtime';
     padding-bottom: 7vh; }
-  #emDesc p, #airDesc p, #acmeDesc p, #scopeDesc p, #typoDesc p {
+  #emDesc p, #airDesc p, #acmeDesc p, #scopeDesc p, #typoDesc p, #photoDesc p {
     font-family: 'ABeeZee';
     font-size: 1.5em;
     width: 30vw;
     float: left; }
-  #emDesc img, #airDesc img, #acmeDesc img, #scopeDesc img, #typoDesc img {
+  #emDesc img, #airDesc img, #acmeDesc img, #scopeDesc img, #typoDesc img, #photoDesc img {
     width: 55vw;
     float: right;
     margin-top: -50vh;
     margin-right: 5vw; }
-  #emDesc h2, #airDesc h2, #acmeDesc h2, #scopeDesc h2, #typoDesc h2 {
+  #emDesc h2, #airDesc h2, #acmeDesc h2, #scopeDesc h2, #typoDesc h2, #photoDesc h2 {
     display: block;
     margin-top: 25vh;
     font-family: 'Playtime';
     font-size: 2em; }
-  #emDesc ul, #airDesc ul, #acmeDesc ul, #scopeDesc ul, #typoDesc ul {
+  #emDesc ul, #airDesc ul, #acmeDesc ul, #scopeDesc ul, #typoDesc ul, #photoDesc ul {
     margin-left: 2vw;
     font-family: 'ABeeZee';
     font-size: 1.5em;
     margin-top: 1vh; }
-  #emDesc button, #airDesc button, #acmeDesc button, #scopeDesc button, #typoDesc button {
+  #emDesc button, #airDesc button, #acmeDesc button, #scopeDesc button, #typoDesc button, #photoDesc button {
     margin-top: 5vh;
     background-color: #6B2C90;
     color: #fff;
@@ -410,19 +416,22 @@ table {
     border-radius: 7%;
     font-family: 'Playtime';
     font-size: 2em; }
-  #emDesc .airbrowsPic, #airDesc .airbrowsPic, #acmeDesc .airbrowsPic, #scopeDesc .airbrowsPic, #typoDesc .airbrowsPic {
+  #emDesc .airbrowsPic, #airDesc .airbrowsPic, #acmeDesc .airbrowsPic, #scopeDesc .airbrowsPic, #typoDesc .airbrowsPic, #photoDesc .airbrowsPic {
     width: 30vw;
     margin-right: 20vw; }
-  #emDesc .typographicPic, #airDesc .typographicPic, #acmeDesc .typographicPic, #scopeDesc .typographicPic, #typoDesc .typographicPic {
+  #emDesc .typographicPic, #airDesc .typographicPic, #acmeDesc .typographicPic, #scopeDesc .typographicPic, #typoDesc .typographicPic, #photoDesc .typographicPic {
     width: 25vw;
     margin-right: 20vw; }
-  #emDesc .backBtn, #airDesc .backBtn, #acmeDesc .backBtn, #scopeDesc .backBtn, #typoDesc .backBtn {
+  #emDesc .photoPic, #airDesc .photoPic, #acmeDesc .photoPic, #scopeDesc .photoPic, #typoDesc .photoPic, #photoDesc .photoPic {
+    width: 35vw;
+    margin-right: 15vw; }
+  #emDesc .backBtn, #airDesc .backBtn, #acmeDesc .backBtn, #scopeDesc .backBtn, #typoDesc .backBtn, #photoDesc .backBtn {
     font-size: 2em;
     margin-top: 10vh;
     font-family: 'Playtime';
     margin-left: -7vw;
     cursor: pointer; }
-    #emDesc .backBtn h3, #airDesc .backBtn h3, #acmeDesc .backBtn h3, #scopeDesc .backBtn h3, #typoDesc .backBtn h3 {
+    #emDesc .backBtn h3, #airDesc .backBtn h3, #acmeDesc .backBtn h3, #scopeDesc .backBtn h3, #typoDesc .backBtn h3, #photoDesc .backBtn h3 {
       display: inline-block;
       margin-left: 0.5vw; }
 
