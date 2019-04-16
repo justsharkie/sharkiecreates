@@ -484,6 +484,12 @@ $bp-desk: 1500px;
     color: $white;
     padding-top: 20vh;
     margin-left: 12vw;
+    @media screen and (max-width: $bp-tab) {
+        padding-top: 17vw;
+    }
+    @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+        padding-top: 10vw;
+    }
     h1 {
         font-size: 3em;
         font-family: 'Playtime';
@@ -494,12 +500,29 @@ $bp-desk: 1500px;
         font-size: 1.5em;
         width: 30vw;
         float: left;
+        @media screen and (max-width: $bp-tab) {
+            width: 80vw;
+            padding-bottom: 5vh;
+        }
+        @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+            width: 70vw;
+        }
     }
     img {
         width: 55vw;
         float: right;
         margin-top: -50vh;
         margin-right: 5vw;
+        @media screen and (max-width: $bp-tab) {
+            display: none;
+        }
+        @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+            width: 80vw;
+            margin-top: 5vh;
+            float: none;
+            margin-right: 0;
+            margin-left: -7vw;
+        }
     }
     h2 {
         display: block;
@@ -523,6 +546,14 @@ $bp-desk: 1500px;
         border-radius: 7%;
         font-family: 'Playtime';
         font-size: 2em;
+        @media screen and (max-width: $bp-tab) {
+            width: 80vw;
+            height: 10vh;
+        }
+        @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+            width: 30vw;
+            height: 7vh;
+        }
     }
     .airbrowsPic {
         width: 30vw;
@@ -545,6 +576,9 @@ $bp-desk: 1500px;
         h3 {
             display: inline-block;
             margin-left: 0.5vw;
+        }
+        @media screen and (max-width: $bp-desk) and (min-width: $bp-tab) {
+            margin-top: 5vh;
         }
     }
 }

@@ -382,6 +382,12 @@ table {
   color: #fff;
   padding-top: 20vh;
   margin-left: 12vw; }
+  @media screen and (max-width: 767px) {
+    #emDesc, #airDesc, #acmeDesc, #scopeDesc, #typoDesc, #photoDesc {
+      padding-top: 17vw; } }
+  @media screen and (max-width: 1500px) and (min-width: 767px) {
+    #emDesc, #airDesc, #acmeDesc, #scopeDesc, #typoDesc, #photoDesc {
+      padding-top: 10vw; } }
   #emDesc h1, #airDesc h1, #acmeDesc h1, #scopeDesc h1, #typoDesc h1, #photoDesc h1 {
     font-size: 3em;
     font-family: 'Playtime';
@@ -391,11 +397,28 @@ table {
     font-size: 1.5em;
     width: 30vw;
     float: left; }
+    @media screen and (max-width: 767px) {
+      #emDesc p, #airDesc p, #acmeDesc p, #scopeDesc p, #typoDesc p, #photoDesc p {
+        width: 80vw;
+        padding-bottom: 5vh; } }
+    @media screen and (max-width: 1500px) and (min-width: 767px) {
+      #emDesc p, #airDesc p, #acmeDesc p, #scopeDesc p, #typoDesc p, #photoDesc p {
+        width: 70vw; } }
   #emDesc img, #airDesc img, #acmeDesc img, #scopeDesc img, #typoDesc img, #photoDesc img {
     width: 55vw;
     float: right;
     margin-top: -50vh;
     margin-right: 5vw; }
+    @media screen and (max-width: 767px) {
+      #emDesc img, #airDesc img, #acmeDesc img, #scopeDesc img, #typoDesc img, #photoDesc img {
+        display: none; } }
+    @media screen and (max-width: 1500px) and (min-width: 767px) {
+      #emDesc img, #airDesc img, #acmeDesc img, #scopeDesc img, #typoDesc img, #photoDesc img {
+        width: 80vw;
+        margin-top: 5vh;
+        float: none;
+        margin-right: 0;
+        margin-left: -7vw; } }
   #emDesc h2, #airDesc h2, #acmeDesc h2, #scopeDesc h2, #typoDesc h2, #photoDesc h2 {
     display: block;
     margin-top: 25vh;
@@ -416,6 +439,14 @@ table {
     border-radius: 7%;
     font-family: 'Playtime';
     font-size: 2em; }
+    @media screen and (max-width: 767px) {
+      #emDesc button, #airDesc button, #acmeDesc button, #scopeDesc button, #typoDesc button, #photoDesc button {
+        width: 80vw;
+        height: 10vh; } }
+    @media screen and (max-width: 1500px) and (min-width: 767px) {
+      #emDesc button, #airDesc button, #acmeDesc button, #scopeDesc button, #typoDesc button, #photoDesc button {
+        width: 30vw;
+        height: 7vh; } }
   #emDesc .airbrowsPic, #airDesc .airbrowsPic, #acmeDesc .airbrowsPic, #scopeDesc .airbrowsPic, #typoDesc .airbrowsPic, #photoDesc .airbrowsPic {
     width: 30vw;
     margin-right: 20vw; }
@@ -434,5 +465,8 @@ table {
     #emDesc .backBtn h3, #airDesc .backBtn h3, #acmeDesc .backBtn h3, #scopeDesc .backBtn h3, #typoDesc .backBtn h3, #photoDesc .backBtn h3 {
       display: inline-block;
       margin-left: 0.5vw; }
+    @media screen and (max-width: 1500px) and (min-width: 767px) {
+      #emDesc .backBtn, #airDesc .backBtn, #acmeDesc .backBtn, #scopeDesc .backBtn, #typoDesc .backBtn, #photoDesc .backBtn {
+        margin-top: 5vh; } }
 
 /*# sourceMappingURL=style.css.map */
