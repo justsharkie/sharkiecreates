@@ -9,3 +9,9 @@ It's been a fun ride. It took a while to get the functionality working, but once
 I'm very happy with the design. It looks smooth, and is professional while also showing a bit of my personal brand. A+ there.
 I'm not totally sure what I should have in this ReadMe, but this works. 
 Next steps: writing the actual copy, and finishing up the responsiveness. Then it can be launched and used as a job searching win!
+
+June 1 2019
+
+I've decided it's time for a change! Already... 
+Basically I've come up with a new idea for my personal website, and want to see what it would look like. And so far, I'm liking it a lot better than my current portfolio design.
+So let's get ready for some changes. Prepare yourselves!
