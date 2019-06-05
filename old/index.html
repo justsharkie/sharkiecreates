@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <!-- social buttons -->
+    <div class="git">
+        <a href="https://github.com/justsharkie" target="_blank">
+            <p>Github</p><span class="gitLogo fab fa-github"></span>
+        </a>
+    </div>
+    <div class="flickr">
+        <a href="https://www.flickr.com/people/145897012@N04/" target="_blank">
+            <p>Flickr</p><span class="flickrLogo fab fa-flickr"></span>
+        </a>
+    </div>
+    <div class="linkdIn">
+        <a href="https://www.linkedin.com/in/shayna-wark-b67246127/" target="_blank">
+            <p>LinkedIn</p><span class="linkdLogo fab fa-linkedin-in"></span>
+        </a>
+    </div>
+    <div class="twitter">
+        <a href="https://twitter.com/justsharkie" target="_blank">
+            <p>Twitter</p><span class="twitLogo fab fa-twitter"></span>
+        </a>
+    </div>
+    
+    <!-- Title/cool right thing -->
+    <div class="portTitle">
+        <p>P</p>
+        <p>O</p>
+        <p>R</p>
+        <p>T</p>
+        <p>F</p>
+        <p>O</p>
+        <p>L</p>
+        <p>I</p>
+        <p>O</p>
+    </div>
+
+    <div class="portOrangeBg">
+        <div class="em2" id="em2" onclick="hide(this, airbrows, acme, scope, typoArt, photo, emDesc)">
+            <h1>EM2</h1>
+            <img src="images/em2.png" alt="Entertainment Squared">
+            <p>Website developed for a college project focusing on a made-up entertainment show.</p>
+        </div>
+        <div id="emDesc">
+            <h1>EM2</h1>
+            <p>In a development team of 3, I participated in taking this website from initial design to final product.  <br><br> My major contributions included the article pages, Music/Movie/Event pages, and the responsiveness of the entire website. I have recently gone in and cleaned up some of the code to make it easier to understand and work more efficently.</p>
+            <h2>Languages Used:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+            </ul>
+            <a href="http://sharkiecreates.ca/portfolio/em2/" target="_blank">
+                <button>View Site</button>
+            </a>
+            <img src="images/em2.png" alt="Entertainment Squared. ">
+            <div class="backBtn" onclick="show(emDesc, em2, airbrows, acme, scope, typoArt, photo)">
+                <span class="fa fa-arrow-left"></span>
+                <h3>Back</h3>
+            </div>
+        </div>
+        <div class="airbrows" id="airbrows" onclick="hide(this, em2, acme, scope, typoArt, photo, airDesc)">
+            <h1>Airbrowz</h1>
+            <img src="images/airbrwz.png" alt="Airbrows">
+            <p>Wireframes designed for Airbrowz. Made with a group of 4 for a client project in college.</p>
+        </div>
+        <div id="airDesc">
+            <h1>AIRBROWZ</h1>
+            <p>Airbrowz was a client project that me and 3 others worked on. From the base idea, we created beginning design material (i.e. branding guide, logo, colour scheme) and then moved on to create the wireframes and HTML snippets for the app. We also went through a few rounds of user testing to ensure the app was easy to use and suited for it's target audience.</p>
+            <h2>Tools Used:</h2>
+            <ul>
+                <li>Uxpin.com</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+                <li>HTML/CSS</li>
+            </ul>
+            <img class="airbrowsPic" src="images/airbrwz.png" alt="Airbrows.">
+            <a href="http://sharkiecreates.ca/portfolio/airbrowz-wireframes.pdf" target="_blank">
+                <button>Wireframes</button>
+            </a>
+            <div class="backBtn" onclick="show(airDesc, em2, airbrows, acme, scope, typoArt, photo)">
+                <span class="fa fa-arrow-left"></span>
+                <h3>Back</h3>
+            </div>
+        </div>
+        <div class="acme" id="acme" onclick="hide(this, em2, airbrows, scope, typoArt, photo, acmeDesc)">
+            <h1>Acme</h1>
+            <img src="images/acme.png" alt="Acme Development Conference. ">
+            <p>College project, used to learn SCSS and Bootstrap. Not a real development conference.</p>
+        </div>
+        <div id="acmeDesc">
+            <h1>ACME</h1>
+            <p>While not a real conference, Acme was a chance for me to get more used to using Bootstrap and learn the ins and outs of SCSS. It's quite a simple website, but I believe it was fundimental to my love of SCSS as a preprocessor. <br> <br> Designed and developed by me, for a college project.</p>
+            <h2>Languages Used:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS/SCSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+            </ul>
+            <img src="images/acme.png" alt="Acme.">
+            <a href="http://sharkiecreates.ca/portfolio/acme/" target="_blank">
+                <button>View Site</button>
+            </a>
+            <div class="backBtn" onclick="show(acmeDesc, em2, airbrows, acme, scope, typoArt, photo)">
+                <span class="fa fa-arrow-left"></span>
+                <h3>Back</h3>
+            </div>
+        </div>
+        <div class="scope" id="scope" onclick="hide(this, em2, airbrows, acme, typoArt, photo, scopeDesc)">
+            <h1>Scope</h1>
+            <img src="images/scope.png" alt="">
+            <p>Simple HTML and CSS website design, created to be a Wordpress template.</p>
+        </div>
+        <div id="scopeDesc">
+            <h1>SCOPE</h1>
+            <p>Yes, this studio might be fake. But the work put into it sure wasn't! <br> <br> Scope was originally designed to become a Wordpress template, but afterwards I migrated it to a simple website. This is mostly showcasing design ability, though I would like to figure out how to do the ordering thing, and this could be a great place for that!</p>
+            <h2>Languages Used:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <img src="images/scope.png" alt="Scope.">
+            <a href="http://sharkiecreates.ca/portfolio/scope/" target="_blank">
+                <button>View Site</button>
+            </a>
+            <div class="backBtn" onclick="show(scopeDesc, em2, airbrows, acme, scope, typoArt, photo)">
+                <span class="fa fa-arrow-left"></span>
+                <h3>Back</h3>
+            </div>
+        </div>
+        <div class="photo" id="photo" onclick="hide(this, em2, airbrows, acme, scope, typoArt, photoDesc)">
+            <h1>Photography</h1>
+            <img src="images/photography.png" alt="Selection of my Photography. ">
+            <p>Macro, Headshots, Landscape and Product Photography</p>
+        </div>
+        <div id="photoDesc">
+            <h1>PHOTOGRAPHY</h1>
+            <p>A passion for Photography led me to explore the professional side of it, including headshots and professional product photography. <br> <br> As a hobby, I enjoy taking Macro and Landscape shots, especially when they showcase the beautiful Canadian countryside!</p>
+            <h2>Camera:</h2>
+            <ul>
+                <li>Nikon D3200</li>
+            </ul>
+            <img class="photoPic" src="images/photography.png" alt="Selection of Photography. ">
+            <a href="https://www.flickr.com/people/145897012@N04/" target="_blank">
+                <button>Flickr</button>
+            </a>
+            <div class="backBtn" onclick="show(photoDesc, em2, airbrows, acme, scope, typoArt, photo)">
+                <span class="fa fa-arrow-left"></span>
+                <h3>Back</h3>
+            </div>
+        </div>
+        <div class="typoArt" id="typoArt" onclick="hide(this, em2, airbrows, acme, scope, photo, typoDesc)">
+            <h1>Typographic Art</h1>
+            <img src="images/typographic_poster.png" alt="Psycho Typographic Poster">
+            <p>Psycho typographic art poster.</p>
+        </div>
+        <div id="typoDesc">
+            <h1>TYPOGRAPHIC ARTWORK</h1>
+            <p>With UX/UI Design comes Graphic Design, and I've always enjoy manipulating fonts and words into beautiful artwork. This is just a small sample of that, done in college for a project which also included making a typographic video for a clip from the movie.</p>
+            <h2>Tools Used:</h2>
+            <ul>
+                <li>Adobe Illustrator</li>
+            </ul>
+            <img class="typographicPic" src="images/typographic_poster.png" alt="Typographic Poster.">
+            <a href="http://sharkiecreates.ca/portfolio/typographic_poster.png" target="_blank">
+                <button>View Poster</button>
+            </a>
+            <div class="backBtn" onclick="show(typoDesc, em2, airbrows, acme, scope, typoArt, photo)">
+                <span class="fa fa-arrow-left"></span>
+                <h3>Back</h3>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>
