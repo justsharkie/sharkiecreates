@@ -15,3 +15,8 @@ June 1 2019
 I've decided it's time for a change! Already... 
 Basically I've come up with a new idea for my personal website, and want to see what it would look like. And so far, I'm liking it a lot better than my current portfolio design.
 So let's get ready for some changes. Prepare yourselves!
+
+June 17 2019
+
+Things have been changed, updated, and I'm much happier with the final project! You can find it on www.sharkiecreates.ca!
+I've also just added a fancy new favicon, which is AWESOME.
